@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/normal"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="普通对话框"
+        />
+    <Button
+        android:id="@+id/confirm" 
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="确认框"
+        />
+    <Button 
+        android:id="@+id/input"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="输入框"
+        />
+    <Button 
+        android:id="@+id/radio"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="单选框"
+        />
+    <Button 
+        android:id="@+id/checkbox"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="多选框"
+        />
+    <Button 
+        android:id="@+id/list"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="列表框"
+        />
+    <Button 
+        android:id="@+id/photo"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="图片框"
+        />
+    
+
+</LinearLayout>
